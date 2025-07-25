@@ -10,9 +10,21 @@ This is a fully functional and responsive shopping cart app built with Flutter. 
 - Synchronize cart items across views
 - View total price and place orders
 
+📁 Project Structure
+/lib
+ ├── data/
+ │   ├── favorite_items_list.dart
+ │   └── product_list.dart
+ ├── screens/
+ │   ├── home_view.dart
+ │   ├── cart_view.dart
+ │   └── favorite_view.dart
+ └── main.dart
+
+
 ## Features
 
-- 🏠 Home View with product listing
+- 🏠 Home/Products View with product listing
 - ❤️ Favorite View to see saved items
 - 🛒 Cart View with grouped items and quantity controls
 - 🔄 Shared and synchronized cart state
